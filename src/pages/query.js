@@ -8,8 +8,8 @@ export default async function Page() {
   const artist = await getArtist()
 
   return (
-    <>
-      <h1>{artist.name}</h1>
-    </>
+    <div>
+      <h1>{artist.title}</h1>
+    </div>
   )
 }
