@@ -5,7 +5,7 @@ async function getArtist() {
  
 export default async function Page() {
   // Initiate both requests in parallel
-  const artis = await getArtist()
+  const artist = await getArtist()
 
   return (
     <>
