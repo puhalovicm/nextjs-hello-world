@@ -19,8 +19,8 @@ export default function QueryPage() {
 
     return (
       <div>
-        <h1>{data.name}</h1>
-        <p>{data.bio}</p>
+        <h1>{data.title}</h1>
+        <p>{data.text1}</p>
       </div>
     );
 }
