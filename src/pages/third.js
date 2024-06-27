@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 
-export default function Page({ data }) {
+export default function ThirdPage({ data }) {
    return (
         <div>
           <h1>{data.title}</h1>
